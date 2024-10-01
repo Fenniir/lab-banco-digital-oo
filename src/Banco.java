@@ -21,4 +21,15 @@ public class Banco {
 		this.contas = contas;
 	}
 
+	public void mostrarContas() {
+		System.out.println(contas);
+	}
+
+	@Override
+	public String toString() {
+		return "[nome= " + nome + ", conta= " + contas + "]  ";
+	}
+
+	
+
 }
